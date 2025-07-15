@@ -93,11 +93,11 @@ interfaz/                  # Visuales y estética con Rich
   └── diseño_interfaz.py
   └── mostrar_resumen.py
 
+.gitignore                 # Exclusiones técnicas
+README.md                  # Documentación del sistema
 insert_datos_prueba.py     # Datos ficticios de carga inicial
 main.py                    # Bucle principal
 requirements.txt           # Dependencias
-README.md                  # Documentación del sistema
-.gitignore                 # Exclusiones técnicas
 ```
 
 ---
