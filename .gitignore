@@ -1,0 +1,15 @@
+# Ignorar la carpeta venv
+venv/
+
+# Archivos de caché de Python
+__pycache__/
+*.pyc
+
+# Archivos de logs generados automáticamente
+*.log
+
+# Ignorar la base de datos inventario.db dentro de la carpeta data
+data/inventario.db
+
+# Ignorar los archivos PDF dentro de la carpeta facturas_exportadas
+facturas_exportadas/*.pdf
