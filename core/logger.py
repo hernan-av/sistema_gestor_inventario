@@ -7,22 +7,21 @@ import logging
 import os
 from datetime import datetime
 
+import logging
+import os
+
 # Crear carpeta de logs si no existe
 LOG_DIR = "."
 os.makedirs(LOG_DIR, exist_ok=True)
 
-# Formato del archivo según fecha
-fecha_actual = datetime.now().strftime("%Y-%m-%d")
-LOG_PATH = os.path.join(LOG_DIR, f"log_{fecha_actual}.log")
+# Usar un único archivo de log con el nombre fijo "registro.log"
+LOG_PATH = os.path.join(LOG_DIR, "registro.log")
 
 # Configuración básica para el logging
 logging.basicConfig(
     level=logging.INFO,
     format="%(asctime)s [%(levelname)s] → %(message)s",
-    handlers=[
-        logging.FileHandler(LOG_PATH, encoding="utf-8"),  # Guardar log en archivo
-        # logging.StreamHandler()  # Descomentar si se desea imprimir en consola
-    ]
+    handlers=[logging.FileHandler(LOG_PATH, mode='a', encoding="utf-8")]  # Modo 'a' para añadir contenido
 )
 
 def log_info(mensaje: str):
