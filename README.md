@@ -166,8 +166,16 @@ Esta carga inicial facilita la evaluación del flujo general del sistema sin nec
 
 Instalación rápida:
 
+```
 pip install -r requirements.txt
+```
 
-Tambien puedes hacerlo con:
+---
 
-pip install rich fpdf
+## Nota final
+
+Este sistema representa el cierre del proceso formativo de Programación 1.
+
+Fue diseñado con foco en la experiencia del usuario y en las buenas prácticas de desarrollo que facilitan el mantenimiento y la colaboración futura.
+
+Más allá del código funcional, busca demostrar una manera de pensar como programador: lógica limpia, decisiones justificadas, y respeto por el legado que deja cada línea escrita.
