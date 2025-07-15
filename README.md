@@ -1,4 +1,4 @@
-# Sistema de Gestión de Inventario — Electro Mundo S.A.
+# Sistema de Gestión de Inventario
 
 Aplicación de consola desarrollada en Python para la gestión integral de productos tecnológicos. Permite administrar clientes, proveedores, categorías, productos y facturación, todo desde una interfaz visual con estilo retro y terminal enriquecida gracias a la biblioteca `rich`.
 
@@ -29,9 +29,11 @@ git clone https://github.com/hernan-av/sistema_gestor_inventario.git
 2. Crear y activar entorno virtual
 
 ```bash
-python -m venv venv
-venv\Scripts\activate     # En Windows
-source venv/bin/activate  # En Linux/macOS
+python -m venv venv # Creación del entorno
+
+venv\Scripts\activate # Ativación en Windows
+
+source venv/bin/activate  # Ativación en Linux/macOS
 ```
 
 3. Instalar dependencias
@@ -161,8 +163,8 @@ Esta carga inicial facilita la evaluación del flujo general del sistema sin nec
 ## Requisitos
 
 - Python 3.10+
-- Biblioteca rich
-- Biblioteca fpdf
+- Biblioteca `rich`
+- Biblioteca `fpdf`
 
 Instalación rápida:
 
